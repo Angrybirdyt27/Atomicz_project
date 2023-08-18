@@ -11,11 +11,21 @@ config_version=4
 [application]
 
 config/name="Interfaz Atomic z"
+run/main_scene="res://Node2D.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
 
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
+
+[mono]
+
+project/assembly_name="Interfaz Atomic z"
 
 [physics]
 
